@@ -1,0 +1,117 @@
+.body-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+
+}
+
+    /* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: tan;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+
+.title1 {
+    font-size: 70px;
+    letter-spacing: 9px;
+    font-family:"Raleway";
+
+}
+
+.title2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: "Raleway"
+}
+
+.footer{
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-family:"Oswald";
+
+}
+
+.image {
+    background-image:url("https://numeralpaint.com/wp-content/uploads/2020/10/sad-panda-paint-by-numbers.jpg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    /* background-repeat:no-repeat;*/
+    border-radius: 200px;
+    margin-top:45px;
+    margin-bottom: 45px; 
+}
+
+.dog-input {
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 2.5);
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.button-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center; 
+    padding-top: 15px; 
+    
+   
+
+}
+
+#random{
+    background-color:rgb(100, 177, 123); 
+    margin: 10px;
+    font-family:"Raleway";
+    
+}
+
+#specific{
+    background-color:rgb(100, 177, 123);
+    margin: 10px; 
+    font-family:"Raleway"; 
+    padding-block: 10px;
+    border-radius: 10px; 
+}
+
+#random:hover{
+    cursor: pointer;
+    background-color:lightpink;
+}
+
+#specific:hover{
+    cursor:pointer;
+    background-color:lightpink;
+}
+
+body{
+    background-image: url("https://media4.giphy.com/media/l41m6YZzaqxZQp4IM/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: 1400px 1080px;
+}
